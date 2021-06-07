@@ -1,0 +1,365 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.container {
+    width: 1150px;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.site-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.site-nav-list {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+
+.site-nav-link {
+    text-decoration: none;
+    color: black;
+    padding: 0 10px;
+    border-bottom: 3px solid transparent;
+    padding: 16px;
+    transition: border 0.3s ease;
+}
+.number {
+    background-color: #00BAFC;
+    font-weight: bold;
+    color: white;
+    border-radius: 3px;
+    padding: 8px 16px;
+    margin-left:24px;
+    text-decoration: none;
+    border: 3px solid #00BAFC
+}
+
+.number:hover {
+    border: 3px solid white;
+    background-color: white;
+    color: #00BAFC;
+}
+
+.site-nav-link:hover {
+    border-bottom: 3px solid grey;
+    
+}
+
+.menu-item-list{
+    display: block;
+    text-align: left;
+    
+    border:transparent;
+  }
+  
+.bir {
+    position: relative;
+    display: flex;
+    flex-grow: 1;
+    margin-right: 2px;
+    
+
+}
+.bir >a {
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 2;
+    text-decoration: none;
+    color: black;
+    
+    
+}
+.drop-down-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.drop-down-menu .menu-item {
+    width: 100%;
+}
+.drop-down-menu a {
+    align-items: center;
+    justify-content: center; 
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    padding: 0;
+    font-weight: bold;
+    font-size: 0;
+    background-color: white;
+    transition: all 0.3s ease; 
+
+}
+.drop-down-menu a:hover{
+    background-color: rgb(207, 207, 207);
+    
+}
+.bir:hover .drop-down-menu a {
+    padding: 5px;
+    font-size: 13px;
+
+}
+
+.dive2 {
+    width: 500px;
+    height: 250px;
+    margin-top: 70px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.video {
+    margin-top: 70px;
+    border-radius: 5px;
+}
+
+.linke {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    background-color: #00BAFC;
+    padding: 8px 16px;
+    border-radius: 5px;
+    margin-top: 10px;
+
+}
+
+
+/* Ikkinchi Qism */
+
+
+.header {
+    margin-top: 150px;
+}
+
+.boshlanish {
+    width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+   
+}
+
+.ul-part2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding-top: 20px;
+}
+
+.items-part2 {
+    margin-right: 49px;
+}
+
+.link-part2 {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    padding: 8px 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.link-buttom {
+    padding: 10px 17px;
+    color: white;
+    font-weight: bold;
+    background-color: #00BAFC;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.link-buttom2 {
+    padding: 8px 16px;
+    border-radius: 5px;
+    color: #00BAFC;
+}
+ 
+
+
+/* Uchinchi Qism */
+
+.header2 {
+    margin-top: 120px;
+}
+
+.boshlanish2 {
+    width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.part3 {
+    display: flex;
+    width: 825px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.dive3 {
+    text-align: start;
+    margin-left: 30px;
+    width: 493px;
+}
+
+.dive3 p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.margin-top {
+    margin-top: 48px;
+}
+
+.link-part3 {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 8px 16px;
+    font-weight: bold;
+    width: 150px;
+    margin: 0 auto;
+    color: white;
+    background-color: #00BAFC;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+
+
+/* Tortinchi Qism */
+
+.header3 {
+    background-color: #00BAFC;
+    margin-top: 60px;
+}
+
+.boshlanish3 {
+    width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    margin-top: 56px;
+}
+
+.soz4 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 130%;
+}
+
+form {
+    width: 350px;
+    height: 305px;
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+    border-radius: 5px;
+ 
+}
+
+.form-wrapper {
+    padding-bottom: 64px;
+}
+
+input {
+    Width: 300px;
+    Height: 56px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 24px;
+    border: none;
+}
+
+.buttonlink {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 8px 16px;
+    font-weight: bold;
+    width: 150px;
+    margin: 0 auto;
+    color: white;
+    background-color: #00BAFC;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+
+/* Beshinchi Qism */
+
+
+.header4 {
+    display: flex;
+    color: white;
+    background-color: black;
+    padding: 56px 0px;
+}
+
+.boshlanish4 {
+    width: 320px;
+}
+
+.footer {
+    display: flex;
+    
+}
+
+.part4 {
+    margin-left: 100px;
+}
+
+.part5 {
+    margin-left: 90px;
+}
+
+li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.items-part4 {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 8px;
+
+}
